@@ -1,0 +1,92 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "text": "Learn Coding"
+    },
+    {
+      "id": "2",
+      "text": "Do DSA"
+    },
+    {
+      "id": "3",
+      "text": "Binary trees"
+    },
+    {
+      "id": "299a2acd-09f4-476b-a1dc-fa728fda3630",
+      "text": "Graphs"
+    },
+    {
+      "id": "548ab59c-fae3-4077-8441-9047f2f5765c",
+      "text": "Kruskal's Algorithm"
+    },
+    {
+      "id": "6e2885c9-1f2d-4f9f-91b6-0acad35e71c2",
+      "text": "Breadth First Search Algorithm"
+    },
+    {
+      "id": "4caa382c-8c70-40f1-bba1-ac966d8f5973",
+      "text": "Depth First Search Algorithm"
+    },
+    {
+      "id": "457f1980-b4f1-484a-bb32-e3080ec92f89",
+      "text": "Dijkstra's Algorithm"
+    },
+    {
+      "id": "dc7e23f6-9913-4f7e-bea9-4efa7ca95b41",
+      "text": "Prim's Algorithm"
+    },
+    {
+      "id": "257df2ea-49c8-49fa-80e4-28449eb54203",
+      "text": "Stacks"
+    },
+    {
+      "id": "b4971da0-d661-4de4-98b0-e8f7ac5af7d7",
+      "text": "Queues"
+    },
+    {
+      "id": "8e04ed40-6859-4113-933d-53a05d254b99",
+      "text": "Linked Lists"
+    },
+    {
+      "id": "d0996d28-7fb5-4bd2-98ba-fe4455c5aea9",
+      "text": "Sorting Algorithms"
+    },
+    {
+      "id": "62f4b84f-5186-413a-8eae-ff429e907901",
+      "text": "Searching Algorithms"
+    },
+    {
+      "id": "e551c5a7-088b-4fa2-92bc-d539b52440cc",
+      "text": "Bubble Sort"
+    },
+    {
+      "id": "657ebf26-b9ff-4af8-a383-bf16ddea65dc",
+      "text": "Selection Sort"
+    },
+    {
+      "id": "f4a3073c-d6c9-401a-b5df-12c1c74ed656",
+      "text": "Insertion Sort"
+    },
+    {
+      "id": "5566538c-1ddc-42a9-a8d9-5c8986ffc554",
+      "text": "Quick Sort"
+    },
+    {
+      "id": "3dd0e12e-f225-458e-8662-995313208f43",
+      "text": "Merge Sort"
+    },
+    {
+      "id": "6cb1e3a3-03d9-4fdb-9d2f-c8b81ca0f5f6",
+      "text": "Heap Sort"
+    },
+    {
+      "id": "f5af43bd-3b18-40b4-b850-c8f543380896",
+      "text": "Linear Search"
+    },
+    {
+      "id": "7c9863e6-c510-48b2-bbd4-b5720bb5c087",
+      "text": "Binary Search 1"
+    }
+  ]
+}
