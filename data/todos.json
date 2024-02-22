@@ -1,14 +1,6 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "Learn Coding"
-    },
-    {
-      "id": "2",
-      "text": "Do DSA"
-    },
-    {
       "id": "3",
       "text": "Binary trees"
     },
@@ -86,7 +78,7 @@
     },
     {
       "id": "7c9863e6-c510-48b2-bbd4-b5720bb5c087",
-      "text": "Binary Search 1"
+      "text": "Binary Search "
     }
   ]
 }

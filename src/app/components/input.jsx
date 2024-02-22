@@ -1,6 +1,4 @@
-
 'use client';
-
 export default function Input({value,label, type, id, onChange}){
     return (
         <div className="mb-4">

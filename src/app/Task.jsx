@@ -4,9 +4,6 @@ import { FiEdit, FiTrash2 } from "react-icons/fi";
 import Modal from "./Modal";
 import { useRouter } from "next/navigation";
 import { deleteToDo, editToDo } from "../../api";
-
-
-
 const Task= ({task})=>{
     const router = useRouter();
     const [openModalEdit, setOpenModalEdit] = useState(false);
@@ -21,7 +18,6 @@ const Task= ({task})=>{
         setOpenModalEdit(false);
         router.refresh();
     }
-
     const handleDeleteTask = async (id) =>{
         await deleteToDo(id);
         setOpenModalDeleted(false);
@@ -35,8 +31,7 @@ const Task= ({task})=>{
             <Modal modalOpen={openModalEdit} setModalOpen={setOpenModalEdit}>
             <form onSubmit={handleSubmitEditToDo}>
                 <h3 className="font-bold text-lg">Edit task</h3>
-                <div className="modal-action">
-                    
+                <div className="modal-action">              
                 <input value={taskToEdit}
                 onChange={e=> setTaskToEdit(e.target.value)} 
                 type="text" placeholder="Type here" className="input input-bordered w-full" />

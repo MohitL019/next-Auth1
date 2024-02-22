@@ -4,30 +4,21 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import axios from "axios";
-
-
-
 const Login = () => {
     const [data, setData] = useState({ username: "", password: "" });
-
     const router = useRouter();
-    
     const onValueChange = (e) => {
         setData({ ...data, [e.target.name]: e.target.value })
     }
-
     const onLogin = async (e) => {
         e.preventDefault();
-
         if (!data.username || !data.password) {
             alert("Please fill all mandatory paramters");
             return;
         }
-
         try {
             const response = await axios.post('/api/users/login', data);
-            setData({ username: "", password: "" });
-            
+            setData({ username: "", password: "" });     
             if (response.status === 200) {
                 router.push('/profile');
             }
@@ -35,7 +26,6 @@ const Login = () => {
             console.log(error);
         }
     }
-
     return (
         <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center">
             <div className="bg-white shadow-md rounded px-16 pt-8 pb-12 mb-4">
@@ -64,11 +54,10 @@ const Login = () => {
                 </form>
                 <p className="text-center mt-4">
                     Don't have an account?{" "}
-                    <Link href="/register" className="text-blue-500 hover:underline">Register</Link>
+                    <Link href="/signup" className="text-blue-500 hover:underline">Register</Link>
                 </p>
             </div>
         </div>
     );
 }
-
 export default Login;

@@ -8,5 +8,4 @@ const Modal = ({modalOpen,setModalOpen, children}) => {
         </div>
       );
 }
-
 export default Modal;

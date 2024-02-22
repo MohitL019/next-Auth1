@@ -4,23 +4,18 @@ import { useState } from "react";
 import Link from "next/link";
 import axios from "axios";
 import { useRouter } from "next/navigation";
-
-
 const Register = () => {
     const [data, setData] = useState({ name: "", username: "", password: "" });
-
     const router = useRouter();
     const onValueChange = (e ) => {
         setData({ ...data, [e.target.name]: e.target.value })       
     }
-
     const onRegister = async (e) => {
         e.preventDefault();
         if (!data.username || !data.password || !data.name) {
             alert("Please fill all mandatory paramters");
             return;
         }
-        
         try {
             const response = await axios.post('/api/users/register', data);
             setData({ name: "", username: "", password: "" });
@@ -32,7 +27,6 @@ const Register = () => {
             console.log(error);
         }
     }
-
     return (
         <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center">
             <div className="bg-white shadow-md rounded px-16 pt-8 pb-12 mb-4">
@@ -73,7 +67,5 @@ const Register = () => {
             </div>
         </div>
     );
-    
 }
-
 export default Register;
